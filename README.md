@@ -20,6 +20,10 @@ Snapshot taken Nov 17, 2026, from the "Launchcode Class" Claude Project.
 | `docs/course/1.1-optional-reflection-sandbox.md` | Optional sandbox reflection prompts |
 | `docs/archive/iteration-log-aug-original.md` | Original August iteration log (superseded) |
 
+## thryve-lp-sourcing/
+
+Snapshot of the target codebase from the Mac project folder: the `test-gap-reviewer` agent (`.claude/agents/`), its rubric, iteration log and run reports (`rubric-test-gap.md`, `iteration-log-test-gap.md`, `run-00N-report-test-gap.md`), the lint and test workflow docs, Dockerfile, CI, source and tests. The live repo is VincentKovar/thryve-lp-sourcing.
+
 ## Not included
 
-Code, agents, and Docker files for `thryve-lp-sourcing` are not here. Credentials and raw Thryve data should never be committed to this repo.
+Credentials (`google_cred.json`, Slack token), raw Thryve data, outputs, `.venv` and caches. The root `.gitignore` blocks them.

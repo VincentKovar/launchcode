@@ -1,0 +1,32 @@
+# Real Thryve data. Never commit.
+data/raw/
+*.env
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# UV
+uv.lock.bak
+
+# OS
+.DS_Store
+
+# Outputs that may contain real contact data
+output/
+*.output.csv
+
+#Launchcode Class google credentials as well as slack credentials never commit
+google_cred.json
+credentials.json
+token.json
+
+# Slack credentials: never commit
+SLACK_BOT_TOKEN
+SLACK_BOT_TOKEN=*
+slack_token*

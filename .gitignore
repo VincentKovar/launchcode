@@ -1,0 +1,30 @@
+# Credentials: never commit
+google_cred.json
+**/google_cred.json
+credentials.json
+token.json
+SLACK_BOT_TOKEN
+SLACK_BOT_TOKEN=*
+slack_token*
+
+# Real Thryve data and outputs
+data/raw/
+**/data/raw/
+output/
+**/output/
+*.env
+.env
+
+# Python / tooling
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# Machine-specific Claude settings
+.claude/settings.local.json
+**/.claude/settings.local.json
+
+# OS
+.DS_Store
